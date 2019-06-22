@@ -1,0 +1,101 @@
+p {
+    color: white;
+}
+
+body {
+    /* background-color: rgb(42, 204, 113); */
+    /* color: red; */
+    /* background-color: lightblue; */
+    /* background-color: #F08; Red Green Blue */
+    /* background-color: rgb(46, 204 ,113) */
+    /* background-color: blue */
+    /* background-color: rgb(52, 152 ,219); */
+}
+
+div {
+    /* color: black; */
+    /* background-color: brown;
+    width: 60px; */
+    /* height: px; */
+    /* margin-left: 300px;
+    margin-right: 250px; */
+    /* margin-top: 100px; */
+    /* margin-bottom: 200px; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* margin: 100px auto 0 auto; top right bottom left  */
+    /* margin: 0 auto; (top,bottom) (left, right)  */
+    /* margin: 0 auto 0; top (left, right) bottom  */
+    /* padding-top: 10px; */
+    /* padding-right: 45px; */
+    /* padding: 10px; */
+    /* padding: 100px auto 0 auto; top right bottom left  */
+    /* padding: 0 auto; (top,bottom) (left, right)  */
+    /* padding: 0 auto 0; top (left, right) bottom  */
+    /* padding: 0; (top,left, right,bottom)  */
+
+}
+/* 
+.one {
+    background-color: lightblue;
+}
+.two {
+    background-color: rgb(42, 204, 113);
+}
+
+#div-one {
+    background-color: coral !important;
+}
+
+div.two, div.one {
+    background-color: blueviolet;
+}
+
+
+#three {
+    background-color: chartreuse;
+} */
+
+/**
+    Specifity =>
+        1. IDs
+        2. Classes
+        3. Tags
+    Master Cards =>
+        Inline Styling
+        Important
+**/
+
+* {
+    box-sizing: border-box;
+}
+
+
+div {
+    width: 250px;
+}
+
+.content-box {
+    /* box-sizing: border-box; */
+    background-color: rgb(255, 217, 109);
+    padding: 10px;
+    border: 5px solid #333;
+}
+
+.seprator-box {
+    background-color: #333;
+    height: 50px;
+}
+
+.border-box {
+    /* box-sizing: border-box; */
+    background-color: rgb(42, 204, 113);
+    padding: 10px;
+    border: 5px solid #333;
+}
+
+
+
+
+
+
