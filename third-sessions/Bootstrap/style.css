@@ -1,0 +1,34 @@
+.btn-center {
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.bg-flat-blue {
+    background-color: rgb(52, 152, 219) !important;
+}
+
+
+/* .card {
+    margin-bottom: 10px;
+} */
+
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+.one {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 217, 102);
+}
+
+
+.one:hover {
+    background-color: rgb(52, 152, 219);
+}
+
+
+
+
+

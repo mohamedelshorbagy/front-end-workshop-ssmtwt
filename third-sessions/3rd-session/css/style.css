@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.cards {
+    /* background-color: rgb(255, 217, 102); */
+    /* background-image: linear-gradient(45deg,rgb(46, 204, 113), green); */
+    background-image: linear-gradient(
+        to right bottom, 
+        rgba(46, 204, 113, 0.8), 
+        rgba(0,255, 0, 0.6)
+        ),
+        url(../img/hero.jpg);
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    clip-path: polygon(0 0, 100% 0, 100% 60%,0 100%)
+    /* clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%); */
+    /* clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%); */
+
+}
+
+.card {
+    width: 400px;
+    padding: 15px;
+    background-color: white;
+    /* box-shadow: 
+    0px 25px 0px -20px coral,
+    0px 20px 0px -5px lightskyblue,
+    0px 60px 0px -60px lightslategrey;
+    ; */
+}
+
+.img-tag {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+
+@media (max-width: 766px) {
+
+
+    .cards {
+        flex-direction: column;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    
+
+    .card {
+        background-color: rgb(52, 152, 219);
+        width: 150px;
+        padding: 20px;
+        color: white;
+        font-size: 35px;
+    }
+}
+
+
+/**
+* Mobile to Tablet
+*
+*/
+@media (min-width: 767px) and (max-width: 991px) {
+
+
+    .card {
+        width: 100px;
+        padding: 5px;
+        background-color: red;
+    }
+
+}
+
+/**
+    Tablets to Computer 
+*/
+
+@media (min-width: 991px) and (max-width: 1200px) {
+
+    .card {
+        width: 200px;
+        padding: 10px;
+        background-color: rgba(46, 204, 113);
+    }
+
+}
