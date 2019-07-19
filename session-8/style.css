@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(
+        to right bottom,
+        rgb(36,204,113),
+        green
+    );
+    height: 100vh;
+}
+
+.cards {
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    margin: 30px auto;
+    
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.parent {
+    margin: 0 auto;
+    border: 5px solid lightcoral;
+    width: 350px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+    flex-direction: column;
+}
+
+.card {
+    /* width: 200px; */
+    padding: 10px;
+    background-color: rgb(46,204,113);
+    color: white;
+    margin: 10px;
+}
+
+
