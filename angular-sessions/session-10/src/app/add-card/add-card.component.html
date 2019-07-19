@@ -1,0 +1,17 @@
+
+
+<form class="form-group" (ngSubmit)="submit(card)" #card="ngForm">
+
+  <input type="text" class="form-control" placeholder="Name"
+  name="name"
+  ngModel
+  required>
+  
+  <textarea class="form-control" placeholder="description" 
+  name="description"
+  ngModel
+  required></textarea>
+  
+  
+  <button class="btn btn-success" [disabled]="!card.valid">Add</button>
+</form>

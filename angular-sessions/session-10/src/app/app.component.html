@@ -1,0 +1,66 @@
+<!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p> -->
+
+<div class="container">
+    <hr>
+    <h1 class="text-center">{{ name }}</h1>
+
+
+    <!-- <h3 class="text-center">Hello, {{ name }}</h3>
+    <p class="text-center">{{ age }}</p>
+    <p class="text-center">{{ arr }}</p>
+    <p class="text-center">{{ user }}</p>
+    <p class="text-center">{{ user | json }}</p> -->
+    <!-- <p class="text-center">{{ user.name }}</p>
+    <p class="text-center">{{ user.age >= 15 ? "Bigger than 15" : "less than 15" }}</p>
+    <p class="text-center">{{ user.age >= 15 ? "Bigger than 15" : "less than 15" }}</p>
+    <p class="text-center">{{ user.age >= 15 ? "Bigger than 15" : "less than 15" }}</p> -->
+
+
+    <!-- <button>{{ '$o' + age + 4 }}</button> -->
+    <!-- <p textContent="{{ name }}"></p> -->
+
+    <!-- <button class="btn btn-success" [disabled]="isDisabled">Add</button> -->
+    <!-- <button class="btn btn-success" (click)="clickMe()">Add</button> -->
+    <!-- <button class="btn btn-success" (click)="addCard()">Add</button> -->
+
+    <!-- <p class="text-center" [ngClass]="{
+        'red': user.age >= 15,
+        'green': user.age < 15
+    }">Age is {{ user.age }}</p> -->
+
+    <!-- <p class="text-center" *ngIf="isHidden">here we go again</p> -->
+
+    <!-- <p>Lorem ipsum dolor sit amet.</p> -->
+
+    <!-- <div class="card" *ngFor="let item of users;let i = index">
+        <div class="card-body">
+            <h4 class="card-title">{{ '$' + (i + 1) }}</h4>
+            <h3 class="card-title">{{ item.name }}</h3>
+            <p class="card-title">{{ item.description }}</p>
+        </div>
+    </div> -->
+
+    <!-- <p>Component</p> -->
+
+    <!-- <div class="alert alert-danger">You're Logged In</div> -->
+    <!-- <alert-comp [message]="message" [status]="'success'" (triggerAlert)="alertClicked($event)"></alert-comp> -->
+    <!-- <alert-comp [message]="'Something went wrong!'" [status]="'danger'"></alert-comp> -->
+
+    <!-- <input type="text" class="form-control" placeholder="Search" [(ngModel)]="name">
+    <p class="text-center">{{ name }}</p> -->
+
+    <app-add-card (addCard)="addNewCard($event)"></app-add-card>
+
+    <hr>
+
+    <div class="card" *ngFor="let item of users;let i = index">
+        <div class="card-body">
+            <h4 class="card-title">{{ '$' + (i + 1) }}</h4>
+            <h3 class="card-title">{{ item.name }}</h3>
+            <p class="card-title">{{ item.description }}</p>
+        </div>
+    </div>
+
+    
+
+</div>
